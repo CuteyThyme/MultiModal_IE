@@ -15,7 +15,9 @@ $PIP install nltk lmdb editdistance opencv-python requests onnx SharedArray tqdm
 
 
 ###### install mmcv ######
-$PIP install mmcv-full==1.3.4
+## $PIP install mmcv-full==1.3.4
+## install mmcv-full according to cuda and torch version
+$PIP install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu110/torch1.7.0/index.html
 
 ###### install mmdetection #####
 $PIP install mmdet==2.11.0
